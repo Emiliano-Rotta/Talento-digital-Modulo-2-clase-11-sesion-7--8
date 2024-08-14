@@ -35,7 +35,7 @@
 // nombreApellido("Armando", "Marin", 20)
 // nombreApellido("Rodrigo", "Donoso", 23)
 
-
+//-------------------------------------
 //Condicionales
 //llueve --> al cine  -->si llueve vamos al cine, 
 //sol --> a la playa  -->si esta soleado vamos a la playa 
@@ -50,7 +50,7 @@
 //     console.log("nos quedamos en casa")
 // }
 
-
+//-------------------------------------
 //Hay 3 tipos de iguales =
 
 //el primer =, es uno solo y se usa para darle el valor a una variable ejemplo:  
@@ -73,6 +73,8 @@
 //     console.log("falso")
 // }
 
+//-------------------------------------
+
 //ACTIVAD: hagan una función que si recibe la palabra mujer devuelva console.log(Bienvenida) si si recibe la palabra varon devuelva console.log(Bienvenido)
 
 //Resultado:
@@ -89,4 +91,72 @@
 // }
 // bienvenida("mujer")
 
+
+//-------------------------------------
+
+//condicional switch
+// var frutaYVerdura = prompt("Escriba su fruta o verdura")
+
+// switch (frutaYVerdura) {
+//     case "banana":
+//         console.log("La banana es una fruta")
+//         break;
+//     case "pera":
+//         console.log("La pera es una fruta")
+//         break;
+//     case "lechuga":
+//         console.log("La lechuga es una verdura")
+//         break;
+//     case "papa":
+//         console.log("La papa es una verdura")
+//         break;
+//     default:
+//         console.log("no encontramos registro de: " + frutaYVerdura)
+//         break;
+// }
+
+//-------------------------------------
+
+// Operadores de comparacion
+// == doble igualdad
+// === triple igualdad
+// != doble negacion
+// !== triple negacion
+// 5 > 3
+// 3 < 5
+// 3 >= 3
+//  3 === 3 && 5 === 5 --> true
+//  3 === 3 && 5 === 4 --> false
+// 3 > 4 || 4 > 3  --> true
+// 3 > 4 || 4 > 5  --> false
+
+
+//-------------------------------------
+
+//Ejercicio: si sos mayor de 18 años podes ingresar a la página para comprar alcohol.
+
+// var edad = parseInt(prompt("dime tu edad"))
+
+// if(edad <= 17){
+//     alert("Busca un mayor que compre por vos")
+// } else {
+//     alert("Bienvenido a la página")
+// }
+
+
+//-------------------------------------
+
+//Ejercicio dos: Se van al campo con el colegio. si sos mayor y pagaste, vas. si sos menor pero tenes autorizacion de tus padres pagaste, vas. si no pagaste no vas.
+
+// var edad = parseInt(prompt("dime tu edad"))
+// var autorizacion = prompt("¿Tiene autorizacion? si o no")
+// var pago = prompt("¿efectuo el pago? si o no")
+
+// if(pago === "no") {
+//     alert("no puedes ir por falta de pago")
+// } else if(edad >= 18 || autorizacion === "si"){
+//     alert("Disfruta tu dia de campo")
+// } else {
+//     alert("Pidele autorización a tus padres")
+// }
 
